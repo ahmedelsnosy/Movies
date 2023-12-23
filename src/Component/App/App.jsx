@@ -55,7 +55,7 @@ export default function App() {
         { path:"register", element:  <Register />  },
         { path: "login", element:<Login saveUserData={saveUserData}/>},
         { index: true, element: <ProtectedRoute saveUserData={saveUserData} userData={userData}><Home /></ProtectedRoute> },
-        { path:"Movies", element: <ProtectedRoute saveUserData={saveUserData} userData={userData}><Home /></ProtectedRoute> },
+        { path:"Movies/", element: <ProtectedRoute saveUserData={saveUserData} userData={userData}><Home /></ProtectedRoute> },
         { path: "movie", element:<ProtectedRoute saveUserData={saveUserData} userData={userData}> <Movie userData={userData} /></ProtectedRoute> },
         { path: "tv", element:<ProtectedRoute saveUserData={saveUserData} userData={userData}> <Tv userData={userData}/> </ProtectedRoute> },
         { path: "people", element:<ProtectedRoute saveUserData={saveUserData} userData={userData}><People userData={userData}/></ProtectedRoute>  },
