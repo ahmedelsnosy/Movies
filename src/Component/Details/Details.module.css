@@ -1,0 +1,66 @@
+.Date{
+    color: #F7E987;
+}
+
+.Trailer{
+    padding: 10px 15px;
+    background-color: #F7E987;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+}
+.vote{
+    background-color: #F7E987;
+    padding: 10px;
+    color: #000;
+}
+.watch {
+    color: #F7E987;
+}
+
+.member {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    background-color: #F7E987;
+    border-radius: 20px;
+
+
+}
+
+.member img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.memberCaption {
+    background-color: #252b486b;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: left 1s;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F7E987;
+    font-size: 30px;
+    border-radius: 20px;
+
+}
+
+.member:hover .memberCaption {
+    left: 0;
+
+}
+
+.rate {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #F7E987;
+    padding: 10px;
+    color: #000;
+
+}

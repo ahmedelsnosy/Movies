@@ -1,0 +1,13 @@
+.L{
+    color: #F7E987;
+    font-size: 4rem;
+    text-align: center;
+    
+}
+.sendForLogin{
+    background-color: #F7E987;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 10px;
+        font-size: 1.2rem;
+}
